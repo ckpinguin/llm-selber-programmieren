@@ -1,0 +1,14 @@
+[project]
+name = "llm-selber-programmieren"
+version = "0.1.0"
+description = "Nach dem gleichnamigen Buch"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.3",
+    "torch>=2.14.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
